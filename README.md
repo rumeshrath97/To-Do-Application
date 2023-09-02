@@ -4,16 +4,16 @@
 
 # Used Tech Stacks
 ## Back-end
-### Node.js
-### Promise MySQL
-### Express
-### CORS
+### -Node.js
+### -Promise MySQL
+### -Express
+
 ## Front-end
-### Angular
-### TypeScript
-### Bootstrap
-### HTML
-### CSS
+### -Angular
+### -TypeScript
+### -Bootstrap
+### -HTML
+### -CSS
 
 
 # Created by Rumesh Rathnayake for CDAZZDEV
