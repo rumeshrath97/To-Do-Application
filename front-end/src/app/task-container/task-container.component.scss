@@ -1,0 +1,98 @@
+input:checked + label{
+  text-decoration: line-through;
+  color: gray;
+}
+
+.trash:hover{
+  color: red;
+}
+
+#hint{
+  text-align: center;
+  padding-top: 30px;
+  color: #3b3b3b;
+}
+
+.item-wrapper{
+  align-items: center;
+  cursor: pointer;
+}
+
+.item-wrapper:hover{
+  background-color: rgb(238, 238, 238);
+}
+
+ul > li {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul > li:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+ul > li > .checkbox {
+  cursor: pointer;
+  flex-grow: 1;
+  user-select: none;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+ul > li > .delete-edit {
+  display: flex;
+  gap: 10px;
+}
+
+ul > li > .delete-edit > span:first-child {
+  visibility: hidden;
+}
+
+ul > li > .delete-edit > span:last-child:hover {
+  color: red;
+}
+
+ul > li > .delete-edit > span:first-child:hover {
+  color: green;
+}
+
+ul > li:hover .delete-edit > span:first-child{
+  visibility: visible;
+}
+
+ul > li > .checkbox > input {
+  /* visibility: hidden; */
+  position: absolute;
+  left:55px;
+}
+
+ul > li > .checkbox::before {
+  content: "";
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  border: 2px solid lightgray;
+  vertical-align: middle;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+ul > li:hover .checkbox::before {
+  content: "";
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  border: 2px solid dodgerblue;
+  vertical-align: middle;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+
+

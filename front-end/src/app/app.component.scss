@@ -1,0 +1,20 @@
+/* SVG icon settings */
+.icon {
+  display: inline-flex;
+  align-self: center;
+}
+
+.icon svg {
+  height: 1.2em;
+  width: 1.2em;
+  fill: blue;
+}
+
+.icon.baseline svg{
+  top: .2em;
+  position: relative;
+}
+
+h1{
+  color: blue;
+}
